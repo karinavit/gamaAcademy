@@ -1,0 +1,24 @@
+03.Tipos de Dados
+var myName = "Karina"; //string
+var age = 36; //number
+var height = 1.63; //number float??
+var isStudent = false // boolean
+
+null // é um objeto vazio, um objeto que não possui dados
+undefined // é um valor que não foi atribuído
+
+//objeto, array e function
+
+var person = {
+  "name": "Karina",
+  "age": 36,
+}
+
+var students = [ "Simara", "Maria", "Karina"]
+
+function sum(a,b) {
+  return a + b
+}
+console.log(height, typeof(height));
+
+typeof // itentifica o tipo desse objeto

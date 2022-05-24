@@ -1,0 +1,54 @@
+04. Operadores
+//Operadores aritiméticos:
+// adição +
+var sumTwoNumbers = 1 + 3;
+console.log(sumTwoNumbers);
+
+// subtração -
+var subTwoNumbers = 4 - 3;
+console.log(subTwoNumbers);
+
+// multiplicação *
+var multTwoNumbers = 4 * 3;
+console.log(multTwoNumbers);
+
+// divisão /
+var divTwoNumbers = 4 / 2;
+console.log(divTwoNumbers);
+// módulo ou resto da divisão %
+var modTwoNumbers = 8 % 2;
+console.log(modTwoNumbers)
+//incremento ++
+var increNum = 1;
+console.log(++increNum)
+//decremento -- 
+var decreNum = 2;
+console.log(--decreNum)
+
+//Operadores de Atribuição
+// = atribuição
+
+//atribuição de soma
+var x = 1;
+var y = 3;
+console.log(x+=y);
+console.log(x-=y);
+console.log(x*=y);
+console.log(x/=y);
+console.log(x%=y);
+//=============================================
+
+//Operadores de Comparação
+// ==  comparando valores
+// === comaprando valores e tipo
+// != diferente de
+// < ou <=
+// > ou >=
+
+//==============
+
+//Operadores Lógicos
+// e &&
+// ou ||
+// negação !
+
