@@ -1,0 +1,28 @@
+//for
+var colors = ["black", "white", "yellow", "green", "blue"];
+
+for (var i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+//no for vamos passar três informações separadas por ; (ponto e vírgula) onde:
+// a primeira informação é um contador, inicializamos este contador com o indice 0
+// a segunda é para indicar que ele execute o bloco de código enquanto essa segunda informação for verdadeira
+// a terceira é a forma como o for vai percorrer o nosso array, neste exemplo vamos usar o incremento. Neste caso, sempre passando de um em um.
+
+//while
+var i = 0;
+
+// while (i <= 10 ) {
+//   console.log(i);
+//   i++;
+// }
+
+// O while significa que enquanto a nossa informação for verdadeira ele irá executar o trecho de código. E só executará se a informação for verdadeira. 
+
+// Do While
+
+do {
+  console.log(i);
+  i++
+} while (i < 10);

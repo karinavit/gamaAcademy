@@ -1,40 +1,24 @@
-// Verificação Simples:
-
-// var num = 1;
-// var num = 5;
-
-// if (num === 1) {
-//   console.log("num é igual a 1")
-// } else {
-//   console.log("num é igual a 5")
-// }
-
-// verificação com else if
-var num = 1;
-var num = 5;
-
-if (num === 1) {
-  console.log("num é igual a 1")
-} else if (num === 2) {
-  console.log("num é igual a 2")
-} else {
-  console.log("num é 5")
+class Book {
+  constructor(title, author, pages) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    // this se refere a nossa classe Book. 
+    // dessa forma temos os nossos atributos
+  }
+  // ainda dentro da nossa classe podemos criar nossos métodos. neste caso não precisamos utilizar a plavra reservada funciton.
+  read() {
+    return `Estou lendo ${this.title}`
+  }
 }
 
-//switch case
-var mes = "janeiro";
+// //Modelo utilizado para instânciar a classe:
+// // Com a classe criada partimos para a criação do nosso objeto, de modo a instanciar a nossa classe.
+// let book = new Book('Algoritmos para viver', 'Brian', 500); // quando uso o new, já estou criando um objeto do tipo Book.
+// console.log(book); // se não passarmos nenhum atributo o console apresentará os atributos com o formato undefined.
+// console.log(book.read());
 
-switch (mes) {
-  case "fevereiro":
-    console.log("mes 2");
-    break;
-  case "março":
-    console.log("mes 3");
-    break
-  case "janeiro":
-    console.log("mes 1");
-    break
-  
-  default:
-    console.log("nenhum dos caos atendidos")
-}
+// Modelo de Herança
+// No exemplo abaixo vamos herdar as propriedades da class Book em uma nova class:
+
+
