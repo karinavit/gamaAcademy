@@ -1,4 +1,12 @@
-//FizzBuzz
+/*
+FizzBuzz
+Se entrada for divisível por 3 imprimir 'Fizz'
+Se entrada for divisível por 5 imprimir 'Buzz'
+Se entrada for divisível por 3 e 5 imprimir 'FizzBuzz'
+Se entrada não for um número imprimir 'Não é um número'
+Se entrada não for divisível por 3 nem por 5 imprimir 'O valor da entrada'
+*/
+
 let resultado = fizzBuzz(15);
 console.log(resultado);
 
